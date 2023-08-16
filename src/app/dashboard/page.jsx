@@ -7,7 +7,7 @@ import { signOut } from 'next-auth/react'
 const page =  () => {
     // const session = await getServerSession(authOptions)
     const session = useSession()
-    console.log("Session : ",session)
+    console.log("Client Session : ",session)
   return (
     <div className='h-screen flex flex-col items-center justify-center gap-4'>
       <div><b>Admin Access Only </b> <i>(Authenticated)</i> Route : /dashboard<u></u></div>

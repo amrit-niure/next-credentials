@@ -13,10 +13,10 @@ export const authOptions = {
             const user = { id: "1", name: credentials.username, email: credentials.password }
       
             if (user) {
-              return user
+              return user        
             } else {
               return null
-            }
+            }       
           }
         })
       ],
